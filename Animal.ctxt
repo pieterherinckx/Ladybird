@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\r\n\ Animal.\ This\ is\ the\ base\ class\ for\ all\ animals.\ In\ addition\ to\ the\ standard\ Actor\r\n\ methods,\ it\ provides\ the\ ability\ to\ move\ and\ turn.\r\n\ \r\n\ @author\ Michael\ Kolling\r\n\ @version\ 1.0\r\n
+comment1.params=angle
+comment1.target=void\ turn(int)
+comment1.text=\r\n\ Turn\ 'angle'\ degrees\ towards\ the\ right\ (clockwise).\r\n
+comment2.params=speed
+comment2.target=void\ move(int)
+comment2.text=\r\n\ Move\ forward\ in\ the\ current\ direction\ with\ the\ given\ speed.\r\n
+comment3.params=
+comment3.target=boolean\ atWorldEdge()
+comment3.text=\r\n\ Test\ if\ we\ are\ close\ to\ one\ of\ the\ edges\ of\ the\ world.\ Return\ true\ is\ we\ are.\r\n
+comment4.params=clss
+comment4.target=boolean\ canSee(java.lang.Class)
+comment4.text=\r\n\ Return\ true\ if\ we\ can\ see\ an\ object\ of\ class\ 'clss'\ right\ where\ we\ are.\ \r\n\ False\ if\ there\ is\ no\ such\ object\ here.\r\n
+comment5.params=clss
+comment5.target=void\ eat(java.lang.Class)
+comment5.text=\r\n\ Try\ to\ eat\ an\ object\ of\ class\ 'clss'.\ This\ is\ only\ successful\ if\ there\r\n\ is\ such\ an\ object\ where\ we\ currently\ are.\ Otherwise\ this\ method\ does\r\n\ nothing.\r\n
+comment6.params=keyName
+comment6.target=boolean\ isKeyPressed(java.lang.String)
+comment6.text=\r\n\ Check\ whether\ a\ given\ key\ is\ currently\ pressed\ down.\r\n
+comment7.params=speed
+comment7.target=void\ moveAutomatically(int)
+comment7.text=\r\n\ Makes\ the\ actor\ move\ automatically\ with\ the\ given\ speed.\r\n
+numComments=8
